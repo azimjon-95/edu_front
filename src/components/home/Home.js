@@ -1,10 +1,15 @@
 import React from 'react'
+import Layout from '../layout/Layout'
 
-const Home = () => {
+const Home = ({ openSidebar }) => {
     return (
-        <div>
+        <Layout openSidebar={openSidebar}>
 
-        </div>
+            <div>
+
+            </div>
+
+        </Layout>
     )
 }
 
